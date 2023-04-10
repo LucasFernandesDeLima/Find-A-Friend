@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Finda friend02</title>
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+
+    <!-- Fontes Google -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header id="header" class="">
+      <div class="wrapper">
+        <nav id="navegation">
+          <a href="#" class="logo">
+            <img src="assets/logo.svg" alt="" />
+          </a>
+
+          <div class="menu">
+            <hr />
+            <ul class="">
+              <li><a href="#home">Home</a></li>
+              <li><a href="#aboutapp">Sobre o app</a></li>
+              <li><a href="#friends">Animais disponíveis</a></li>
+              <li><a href="#">Sobre a FindAFriend</a></li>
+              <li><a href="#">contato</a></li>
+            </ul>
+          </div>
+        </nav>
+
+        <button class="toggle-menu">
+          <img src="assets/icon-open-menu.svg" alt="" />
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <section id="home">
+        <div class="wrapper">
+          <header class="introduction-page">
+            <div class="pet-gallery">
+              <!-- <div class="phots"> -->
+              <img src="assets/dog1.svg" alt="" />
+              <img src="assets/cat1.svg" alt="" />
+              <img src="assets/dog2.svg" alt="" />
+              <img src="assets/cat2.svg" alt="" />
+              <!-- </div> -->
+
+              <p><span>324 amigos</span> na sua cidade</p>
+            </div>
+
+            <h1 class="main-title">Leve a felicidade para o seu lar</h1>
+            <p>Encontre o animal de estimação ideal para seu estilo de vida!</p>
+          </header>
+
+          <div class="content">
+            <button class="button-Access">Acesse agora</button>
+            <img src="assets/bg-home-desktop.png" alt="" />
+          </div>
+        </div>
+      </section>
+
+      <section id="aboutapp">
+        <div class="wrapper">
+          <div>
+            <header>
+              <h2 class="subtitle">Um app não, uma caixinha de amigos...</h2>
+            </header>
+
+            <div class="content">
+              <div class="cards">
+                <div class="card">
+                  🐕
+                  <p>
+                    O <strong>FindAFriend</strong> é um produto desenvolvido
+                    para você encontrar o animal de estimação ideal ao seu
+                    estilo de vida!
+                  </p>
+                </div>
+                <div class="card">
+                  🐈
+                  <p>
+                    <strong>ONGs</strong> cadastram os bichinhos disponíveis
+                    para adoção informando características como: porte, nível de
+                    energia, nível de independência, sociabilidade e gênero.
+                  </p>
+                </div>
+                <div class="card">
+                  🦮
+                  <p>
+                    <strong>Filtre os bichinhos</strong> de acordo com suas
+                    preferências e lifestyle. Depois é só entrar em contato com
+                    a ONG para agendar uma visita e conhecer pessoalmente seu
+                    match perfeito!
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="div-image">
+            <img src="./assets/map-mobile.svg" alt="" />
+            <img src="assets/img-new.svg" alt="" />
+          </div>
+        </div>
+      </section>
+
+      <section id="friends">
+        <div class="wrapper">
+          <header>
+            <h2 class="subtitle">
+              Há muitos <br />
+              amigos esperando <br />
+              por você!
+            </h2>
+          </header>
+
+          <p>
+            O FiendAFriend conecta pessoas que estão procurando por um animal de
+            estimação com animais que precisam de um lar amoroso. É fácil de
+            usar e você pode navegar por uma variedade de animais para encontrar
+            aquele que melhor se adapta ao seu estilo de vida e necessidades.
+          </p>
+
+          <button class="button">Acesse agora</button>
+
+          <!-- Slider main container -->
+          <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide">
+                <div class="group-swiper-slide">
+                  <img src="assets/Hamilton.svg" alt="" />
+                  <h3 class="friends-name">Hamilton</h3>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="group-swiper-slide">
+                  <img src="assets/Cleiton.svg" alt="" />
+                  <h3 class="friends-name">Cleiton</h3>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="group-swiper-slide">
+                  <img src="assets/Aldo.svg" alt="" />
+                  <h3 class="friends-name">Aldo</h3>
+                </div>
+              </div>
+            </div>
+            <!-- If we need pagination -->
+            <div class="wrapper-swiper-pagination">
+              <div class="swiper-pagination"></div>
+            </div>
+
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+
+            <!-- If we need scrollbar -->
+            <div class="swiper-scrollbar"></div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about">
+        <div class="wrapper">
+          <header>
+            <hgroup>
+              <h2 class="subtitle">
+                Sobre <br />
+                a FindAFriend
+              </h2>
+              <p>
+                A FindAFriend acredita que todo bichinho merece uma vida
+                confortável e segura. Por isso, cria soluções que ajudam ONGs e
+                entidades protetoras a conectar pessoas adotantes e animais
+                resgatados.
+              </p>
+            </hgroup>
+          </header>
+
+          <div class="content">
+            <div class="swiper">
+              <!-- Additional required wrapper -->
+              <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide">
+                  <div class="card">
+                    <div class="image-card">
+                      <figure>
+                        <img src="assets/fundador.svg" alt="" />
+                        <figcaption>
+                          <h3>Hamilton Freire</h3>
+                          Fundador
+                        </figcaption>
+                      </figure>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="swiper-slide">
+                  <div class="card">
+                    <div class="image-card">
+                      <figure>
+                        <img src="assets/fundadora.svg" alt="" />
+                        <figcaption>
+                          <h3>Lara Valencia</h3>
+                          Fundadora
+                        </figcaption>
+                      </figure>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="swiper-slide">
+                  <div class="card">
+                    <div class="image-card">
+                      <figure>
+                        <img src="assets/Designer.svg" alt="" />
+                        <figcaption>
+                          <h3>Aline Alana</h3>
+                          UI/UX Designer
+                        </figcaption>
+                      </figure>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="swiper-slide">
+                  <div class="card">
+                    <div class="image-card">
+                      <figure>
+                        <img src="assets/developer-full-stack.svg" alt="" />
+                        <figcaption>
+                          <h3>Tadeu Bastos</h3>
+                          Full stack developer
+                        </figcaption>
+                      </figure>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- If we need pagination -->
+              <div class="wrapper-swiper-pagination">
+                <div class="swiper-pagination"></div>
+              </div>
+
+              <!-- If we need navigation buttons -->
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-button-next"></div>
+
+              <!-- If we need scrollbar -->
+              <div class="swiper-scrollbar"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact">
+        <div class="wrapper">
+          <div class="container">
+            <header>
+              <h2 class="subtitle">
+                Entre <br />
+                em contato <br />
+                conosco
+              </h2>
+              <a href="#">
+                <img src="assets/icon-msg-contact.svg" alt="" />
+                Clique aqui e envie um email</a
+              >
+            </header>
+
+            <div class="content">
+              <img src="assets/about-dogs-six-meio.svg" alt="" />
+              <img src="assets/about-dogs-six.svg" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer id="footer">
+      <div class="wrapper">
+        <!-- <img src="assets/logo-footer-mobile.svg" alt="" /> -->
+        <p>
+          <span>2023 ® FindAFriend</span>
+          <span>All rights reserved</span>
+        </p>
+      </div>
+    </footer>
+  </body>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+  <script src="script.js"></script>
+</html>
+
+<!-- 
+
+<div class="card">
+  <div class="image-card">
+    <figure>
+      <img src="assets/fundador.svg" alt="" />
+      <figcaption>
+        <h3>Hamilton Freire</h3>
+        Fundador
+      </figcaption>
+    </figure>
+  </div>
+</div>
+
+<div class="card">
+  <div class="image-card">
+    <figure>
+      <img src="assets/fundadora.svg" alt="" />
+      <figcaption>
+        <h3>Lara Valencia</h3>
+        Fundadora
+      </figcaption>
+    </figure>
+  </div>
+</div>
+
+<div class="card">
+  <div class="image-card">
+    <figure>
+      <img src="assets/Designer.svg" alt="" />
+      <figcaption>
+        <h3>Aline Alana</h3>
+        UI/UX Designer
+      </figcaption>
+    </figure>
+  </div>
+</div>
+
+<div class="card">
+  <div class="image-card">
+    <figure>
+      <img src="assets/developer-full-stack.svg" alt="" />
+      <figcaption>
+        <h3>Tadeu Bastos</h3>
+        Full stack developer
+      </figcaption>
+    </figure>
+  </div>
+</div> -->
